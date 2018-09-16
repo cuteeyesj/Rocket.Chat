@@ -180,7 +180,7 @@ Meteor.startup(function() {
 			console.log((`Password: ${ adminUser._id }`).green);
 
 			if (RocketChat.models.Users.findOneByEmailAddress(adminUser.emails[0].address)) {
-				throw new Meteor.Error(`Email ${ adminUser.emails[0].address } already exists`, 'Rocket.Chat can\'t run in test mode');
+				throw new Meteor.Error(`Email ${ adminUser.emails[0].address } already exists`, ' can\'t run in test mode');
 			}
 
 			if (!RocketChat.checkUsernameAvailability(adminUser.username)) {

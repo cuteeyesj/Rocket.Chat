@@ -9,7 +9,7 @@ RocketChat.Migrations.add({
 
 		RocketChat.models.Settings.update({ _id: 'Email_Footer', value: '' }, {
 			$set: {
-				value: '</td></tr></table></td></tr><tr><td border="0" cellspacing="0" cellpadding="0" width="100%" style="font-family: Helvetica,Arial,sans-serif; max-width: 800px; margin: 0 auto; padding: 1.5em; text-align: center; font-size: 8pt; color: #999;">Powered by <a href="https://rocket.chat" target="_blank">Rocket.Chat</a></td></tr></table></td></tr></table>',
+				value: '</td></tr></table></td></tr><tr><td border="0" cellspacing="0" cellpadding="0" width="100%" style="font-family: Helvetica,Arial,sans-serif; max-width: 800px; margin: 0 auto; padding: 1.5em; text-align: center; font-size: 8pt; color: #999;">Powered by <a href="https://itempire.net/" target="_blank">ITEmpire</a></td></tr></table></td></tr></table>',
 			},
 		});
 	},
